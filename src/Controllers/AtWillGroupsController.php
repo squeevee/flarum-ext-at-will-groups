@@ -44,7 +44,7 @@ class AtWillGroupsController implements ControllerInterface
             $id = (int)$id_string;
             $group = Group::find($id);
 
-            $this->assertPermission($actor->can($join? 'join_atWillGroup' : 'leave_atWillGroup', $group));
+            $this->assertPermission($actor->can($join? 'squeevee.join_atWillGroup' : 'squeevee.leave_atWillGroup', $group));
 
             $result->push($id);
         }

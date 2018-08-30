@@ -1,0 +1,21 @@
+squeevee-at-will-groups:
+  forum:
+    main:
+      FieldSet-groups: Groups
+    components:
+      UserGroupGrid:
+        Message-noGroups: You are not a member of any groups
+        Message-isMember: You are a member of this group
+        Button-join: Join
+        Button-leave: Leave
+        Button-cannotLeave: Can't Leave
+  admin:
+    main:
+      permissionItems-label: At Will Groups
+      atWillGroupItems-options:
+        none: None
+        join-only: Join only
+        leave-only: Leave only
+        join-and-leave: Join and Leave
+
+
